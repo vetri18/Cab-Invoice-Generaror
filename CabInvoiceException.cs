@@ -19,7 +19,7 @@ namespace CabInvoiceGenerator
 
         ExceptionType type;
 
-        public CabInvoiceException(ExceptionType typ, string message):base(message)
+        public CabInvoiceException(ExceptionType type, string message):base(message)
         {
             this.type = type;
         }
